@@ -1,4 +1,5 @@
 import React from 'react';
+import  ProductsList from '../Autocomplete/ProductsList';
 import './Modal.css';
 
 export default class Modal extends React.Component {
@@ -18,7 +19,9 @@ export default class Modal extends React.Component {
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
-        <div className="AppModalContent px-5 pt-3"></div>
+        <div className="AppModalContent px-5 pt-3">
+          <ProductsList />
+        </div>
       </div>
     );
   }
