@@ -1,5 +1,5 @@
 import React from 'react';
-import  ProductsList from '../Autocomplete/ProductsList';
+import  ProductsList from '../ProductsList/ProductsList';
 import './Modal.css';
 
 export default class Modal extends React.Component {

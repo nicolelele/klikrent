@@ -1,0 +1,42 @@
+.AppProductsList {
+  height: inherit;
+  overflow: auto;
+}
+
+.AppListCategory {
+  font-size: 0.9rem;
+  list-style: none;
+  font-weight: bold;
+  font-style: italic;
+  background-color: #f8f9fa;
+}
+
+.AppListItem {
+  font-size: 0.8rem;
+}
+
+.AppListEmpty {
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .AppListItem:hover {
+    cursor: pointer;
+    background-color: #e2e6ea;
+  }
+}
+
+.AppListItem:active {
+  background-color: #e2e6ea;
+}
+
+@media (min-width: 768px) {
+  .AppListCategory {
+    font-size: 1rem;
+  }
+  
+  .AppListItem {
+    font-size: 0.9rem;
+  }
+}
